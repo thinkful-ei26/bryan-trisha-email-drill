@@ -19,7 +19,7 @@ export default function Email() {
         <main>
           <Switch>
             {/* <Route exact path="/" render={() => (<Redirect to="/inbox"/>)}
-                    /> */}
+            /> */}
             {/* <Redirect from='/' to='/inbox' /> */}
             <Route exact path='/:folderId' component={EmailList} />
             <Route path='/:folderId/:emailId' component={SingleEmail} />
